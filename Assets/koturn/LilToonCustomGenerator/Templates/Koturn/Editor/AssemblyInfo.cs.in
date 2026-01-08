@@ -1,0 +1,27 @@
+using System.Reflection;
+
+// General Information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("%%NAMESPACE%%")]
+[assembly: AssemblyDescription("Material inspector of %%SHADER_NAME%%.")]
+[assembly: AssemblyConfiguration("Release")]
+[assembly: AssemblyCompany("%%AUTHOR_NAME%%")]
+[assembly: AssemblyProduct("%%NAMESPACE%%")]
+[assembly: AssemblyCopyright("Copyright (C) %%YEAR%% %%AUTHOR_NAME%% All Rights Reserverd.")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+[assembly: AssemblyVersion("%%VERSION%%")]
+[assembly: AssemblyFileVersion("%%VERSION%%")]
+[assembly: AssemblyInformationalVersion("%%VERSION%%")]
+
+// Metadata
+// [assembly: AssemblyMetadata("RepositoryUrl", "https://github.com/YOURNAME/REPOSITORY")]

@@ -1,0 +1,315 @@
+{
+  "configList": [
+    {
+      "name": "default",
+      "templates": [
+        {
+          "guid": "b31b17fda5b8d2b40bc83f2d52aaf124",
+          "destination": "Editor/%%INSPECTOR_NAME%%.cs"
+        },
+        {
+          "guid": "a81489e7f9a9ac64fb29ac7ae0e7df1d",
+          "destination": "Editor/%%NAMESPACE%%.asmdef"
+        },
+        {
+          "guid": "06f1d51b437cf034f93e59db08a3ca3b",
+          "destination": "Shaders/custom.hlsl"
+        },
+        {
+          "guid": "e0a0dee6c1c04b246b4a2e3d77480a75",
+          "destination": "Shaders/custom_insert.hlsl"
+        },
+        {
+          "guid": "0cb602783b75e344f9a9c468660ed2e0",
+          "destination": "Shaders/lilCustomShaderDatas.lilblock"
+        },
+        {
+          "guid": "006df09b98be52b4f9c57c9171ce515b",
+          "destination": "Shaders/lilCustomShaderInsert.lilblock"
+        },
+        {
+          "guid": "2f5cb519c231ed447af95f5eb77ceef0",
+          "destination": "Shaders/lilCustomShaderProperties.lilblock"
+        },
+        {
+          "guid": "d90d747eae2017a42a0769ed41ecdf60",
+          "destination": "Shaders/lts.lilcontainer"
+        },
+        {
+          "guid": "de8a69c85653060489814529ea1149e7",
+          "destination": "Shaders/ltsl.lilcontainer"
+        },
+        {
+          "guid": "fb50430367c9ef6419896852a167fe3d",
+          "destination": "Shaders/ltsl_cutout.lilcontainer"
+        },
+        {
+          "guid": "4f58df7d8270b81448dc0dd1a21de912",
+          "destination": "Shaders/ltsl_cutout_o.lilcontainer"
+        },
+        {
+          "guid": "73cbc0a4e737c3b48a24206b82136909",
+          "destination": "Shaders/ltsl_o.lilcontainer"
+        },
+        {
+          "guid": "6234622e35019a941be27ac0250e1471",
+          "destination": "Shaders/ltsl_onetrans.lilcontainer"
+        },
+        {
+          "guid": "06e7c9857eecc814b999c517e45a2cd1",
+          "destination": "Shaders/ltsl_onetrans_o.lilcontainer"
+        },
+        {
+          "guid": "b63bdc5f575b5c545a53854603c7b8e9",
+          "destination": "Shaders/ltsl_overlay.lilcontainer"
+        },
+        {
+          "guid": "bb623156f4b928246b9d38d680695bda",
+          "destination": "Shaders/ltsl_overlay_one.lilcontainer"
+        },
+        {
+          "guid": "2f6c96565aa4f2840a3914e4dabfca95",
+          "destination": "Shaders/ltsl_trans.lilcontainer"
+        },
+        {
+          "guid": "388729d8826fd7d4ab5ec5aa85adf807",
+          "destination": "Shaders/ltsl_trans_o.lilcontainer"
+        },
+        {
+          "guid": "427ccde7892ba48438225d2b14a21d65",
+          "destination": "Shaders/ltsl_twotrans.lilcontainer"
+        },
+        {
+          "guid": "6915181700f1f8345b07d50c65ba12a6",
+          "destination": "Shaders/ltsl_twotrans_o.lilcontainer"
+        },
+        {
+          "guid": "333a0f4b7215784468496985e2a9ec66",
+          "destination": "Shaders/ltsmulti.lilcontainer"
+        },
+        {
+          "guid": "c5b27ab9c96cc2a4091b508584510d89",
+          "destination": "Shaders/ltsmulti_fur.lilcontainer"
+        },
+        {
+          "guid": "e4a0eab5a4513c2439a78013d857e976",
+          "destination": "Shaders/ltsmulti_gem.lilcontainer"
+        },
+        {
+          "guid": "f5242cb112dd35b4fa42c5bdfec596a6",
+          "destination": "Shaders/ltsmulti_o.lilcontainer"
+        },
+        {
+          "guid": "d1d2b55ae4f6f554ca7fc90eed9b6f32",
+          "destination": "Shaders/ltsmulti_ref.lilcontainer"
+        },
+        {
+          "guid": "43f66fb17d332fa46a53e0f45ea6e365",
+          "destination": "Shaders/ltspass_cutout.lilcontainer"
+        },
+        {
+          "guid": "e1eca1b2b05b5bf40ac657b0c4d1f18d",
+          "destination": "Shaders/ltspass_lite_cutout.lilcontainer"
+        },
+        {
+          "guid": "ec552aaa5eb42e741b93fce262840461",
+          "destination": "Shaders/ltspass_lite_opaque.lilcontainer"
+        },
+        {
+          "guid": "a051260d36e220740b57213bb76a94aa",
+          "destination": "Shaders/ltspass_lite_transparent.lilcontainer"
+        },
+        {
+          "guid": "675a7b1f7e3159b44ab99984a157bf9e",
+          "destination": "Shaders/ltspass_opaque.lilcontainer"
+        },
+        {
+          "guid": "e7aa7fda94f0870448afeb517fa55c9c",
+          "destination": "Shaders/ltspass_tess_cutout.lilcontainer"
+        },
+        {
+          "guid": "47fd08019168dd446a072df4f1ae7710",
+          "destination": "Shaders/ltspass_tess_opaque.lilcontainer"
+        },
+        {
+          "guid": "7f6ffe33708d52f4ebe2bd802a5ecb8b",
+          "destination": "Shaders/ltspass_tess_transparent.lilcontainer"
+        },
+        {
+          "guid": "5ba10e677487e594f94be95f10099530",
+          "destination": "Shaders/ltspass_transparent.lilcontainer"
+        },
+        {
+          "guid": "0780b8f948df1d747b05c64b434e445a",
+          "destination": "Shaders/lts_cutout.lilcontainer"
+        },
+        {
+          "guid": "a7ecd939f6051c3489816cd4ffee1eeb",
+          "destination": "Shaders/lts_cutout_o.lilcontainer"
+        },
+        {
+          "guid": "80e4d0d54d91a464c82fdb5241cd5c70",
+          "destination": "Shaders/lts_cutout_oo.lilcontainer"
+        },
+        {
+          "guid": "9e0bd7e6e53d72843974cd82b26f39e5",
+          "destination": "Shaders/lts_fakeshadow.lilcontainer"
+        },
+        {
+          "guid": "51d1670ade823d844aba530f16410b2c",
+          "destination": "Shaders/lts_fur.lilcontainer"
+        },
+        {
+          "guid": "5e1ade9695a81eb44bab51c671ab9f4c",
+          "destination": "Shaders/lts_furonly.lilcontainer"
+        },
+        {
+          "guid": "8ac3015222808dd44b5ec08456855b50",
+          "destination": "Shaders/lts_furonly_cutout.lilcontainer"
+        },
+        {
+          "guid": "c989f407082eb2a42abe115139e7c3f4",
+          "destination": "Shaders/lts_furonly_two.lilcontainer"
+        },
+        {
+          "guid": "973ebfaa7a42bbb4bb75cac5dd0a747f",
+          "destination": "Shaders/lts_fur_cutout.lilcontainer"
+        },
+        {
+          "guid": "bac6f655095e602468f11d4388ea3537",
+          "destination": "Shaders/lts_fur_two.lilcontainer"
+        },
+        {
+          "guid": "d5f2f271bf67ab14fb0c06a792f3d257",
+          "destination": "Shaders/lts_gem.lilcontainer"
+        },
+        {
+          "guid": "2aa1337ffb644fa4c94187ea8fc7a527",
+          "destination": "Shaders/lts_o.lilcontainer"
+        },
+        {
+          "guid": "0b209bf5b1d5c4b4f869feef9090b339",
+          "destination": "Shaders/lts_onetrans.lilcontainer"
+        },
+        {
+          "guid": "034b19a064b59a34daeae4fa3dcf742d",
+          "destination": "Shaders/lts_onetrans_o.lilcontainer"
+        },
+        {
+          "guid": "9764b8b82d232954089a9685a0186692",
+          "destination": "Shaders/lts_oo.lilcontainer"
+        },
+        {
+          "guid": "3401d277607b4e84b8e27e5f4dd1d846",
+          "destination": "Shaders/lts_overlay.lilcontainer"
+        },
+        {
+          "guid": "e96fc1de26d1f0d49be22c9272242794",
+          "destination": "Shaders/lts_overlay_one.lilcontainer"
+        },
+        {
+          "guid": "105006fa40f361841bdfb9a03149af5b",
+          "destination": "Shaders/lts_ref.lilcontainer"
+        },
+        {
+          "guid": "ba712a4b2552762468c6593620887b8e",
+          "destination": "Shaders/lts_ref_blur.lilcontainer"
+        },
+        {
+          "guid": "dd16480a4477f1a4b9da77789cd1fce1",
+          "destination": "Shaders/lts_tess.lilcontainer"
+        },
+        {
+          "guid": "7db8d5ad66eacf542aae50ab6c43b97b",
+          "destination": "Shaders/lts_tess_cutout.lilcontainer"
+        },
+        {
+          "guid": "088d793f2c3c1fb45aef0e4116a55fe3",
+          "destination": "Shaders/lts_tess_cutout_o.lilcontainer"
+        },
+        {
+          "guid": "b648eb2cb39965a478ae62004f326dc4",
+          "destination": "Shaders/lts_tess_o.lilcontainer"
+        },
+        {
+          "guid": "6ab81cbef45d046409f8513298637584",
+          "destination": "Shaders/lts_tess_onetrans.lilcontainer"
+        },
+        {
+          "guid": "c86de8e864a010a4db54dc8546467971",
+          "destination": "Shaders/lts_tess_onetrans_o.lilcontainer"
+        },
+        {
+          "guid": "fb89f762e785c94479a004dd6d7872e8",
+          "destination": "Shaders/lts_tess_trans.lilcontainer"
+        },
+        {
+          "guid": "caf274535a02d974180710e1ee04a23d",
+          "destination": "Shaders/lts_tess_trans_o.lilcontainer"
+        },
+        {
+          "guid": "9329fc9b0acd9f14f8e2915a2e4fd0b7",
+          "destination": "Shaders/lts_tess_twotrans.lilcontainer"
+        },
+        {
+          "guid": "3c6ef6f21ac82b44a9a09492ed9daa2d",
+          "destination": "Shaders/lts_tess_twotrans_o.lilcontainer"
+        },
+        {
+          "guid": "bf4280709ed94644aaac7bcab7f8459a",
+          "destination": "Shaders/lts_trans.lilcontainer"
+        },
+        {
+          "guid": "d4f51f42cce6b264e80a9f5205e76ebc",
+          "destination": "Shaders/lts_trans_o.lilcontainer"
+        },
+        {
+          "guid": "da5d843931409c34098870bfeae6142c",
+          "destination": "Shaders/lts_trans_oo.lilcontainer"
+        },
+        {
+          "guid": "b0ed4ad1de0c6104eb78c80c55179c2e",
+          "destination": "Shaders/lts_twotrans.lilcontainer"
+        },
+        {
+          "guid": "df095a8654862ba4dbe3ae6012a4a209",
+          "destination": "Shaders/lts_twotrans_o.lilcontainer"
+        }
+      ]
+    },
+    {
+      "name": "koturn",
+      "basedOn": "default",
+      "templates": [
+        {
+          "guid": "b8614b177cb140b40b76c5f54f829010",
+          "destination": "Editor/AssemblyInfo.cs"
+        },
+        {
+          "guid": "e6699db048c50e744ba7f3c3ee5d2266",
+          "destination": "Editor/AssetGuid.cs"
+        },
+        {
+          "guid": "1c45a9bf2b3ec6a439fa54e7f6971776",
+          "destination": "Editor/%%INSPECTOR_NAME%%.cs"
+        },
+        {
+          "guid": "e24e9827e102db54abf7fad4800f01a2",
+          "destination": "Editor/lang_custom.tsv"
+        },
+        {
+          "guid": "a0c82df0eee29094c8645cd5f37f532e",
+          "destination": "Editor/%%NAMESPACE%%.asmdef"
+        },
+        {
+          "guid": "c6fdfa3b426b06e40b8f746df1864f5d",
+          "destination": "Editor/Startup.cs"
+        },
+        {
+          "guid": "8682bdb6b7b880f48b24b7d2ec4acc89",
+          "destination": "Shaders/custom_insert.hlsl"
+        }
+      ]
+    }
+  ]
+}

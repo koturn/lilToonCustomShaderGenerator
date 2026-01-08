@@ -1,0 +1,23 @@
+namespace %%NAMESPACE%%
+{
+    /// <summary>
+    /// Provides Asset GUIDs.
+    /// </summary>
+    internal static class AssetGuid
+    {
+!!ifnotempty:GUID_LANG_CUSTOM!!
+        /// <summary>
+        /// GUID of "Assets/XXXXXXXX/Editor/lang_custom.tsv".
+        /// </summary>
+        public const string LangCustom = "%%GUID_LANG_CUSTOM%%";
+!!endif!!
+        /// <summary>
+        /// GUID of "Assets/XXXXXXXX/Shaders/".
+        /// </summary>
+        public const string ShaderDir = "%%GUID_SHADER_DIR%%";
+        /// <summary>
+        /// GUID of "Assets/lilToon/Shader/".
+        /// </summary>
+        public const string LilToonShaderDir = "ac0a8f602b5e72f458f4914bf08f0269";
+    }
+}

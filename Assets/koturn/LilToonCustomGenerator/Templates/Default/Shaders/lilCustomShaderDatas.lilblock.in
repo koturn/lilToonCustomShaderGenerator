@@ -1,0 +1,2 @@
+ShaderName "%%SHADER_NAME%%"
+EditorName "%%NAMESPACE%%.%%INSPECTOR_NAME%%"
