@@ -54,6 +54,10 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
         /// </summary>
         private V2FMemberReorderbleListContainer _v2fMemberReorderableListContainer;
         /// <summary>
+        /// <see cref="ReorderableListContainer{T}"/> for <see cref="KVPair{TKey, TValue}"/>.
+        /// </summary>
+        private AsmMetadataReorderableListContainer _asmMetadataReorderableList;
+        /// <summary>
         /// <see cref="ReorderableListContainer{T}"/> for <see cref="string"/>.
         /// </summary>
         private TextReorderableListContainer _packageKeywordReorderableListContaner;
@@ -381,6 +385,7 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
 
             _propertyReorderableListContainer = CreateInstance<PropertyReorderableListContainer>();
             _v2fMemberReorderableListContainer = CreateInstance<V2FMemberReorderbleListContainer>();
+            _asmMetadataReorderableList = CreateInstance<AsmMetadataReorderableListContainer>();
             _packageKeywordReorderableListContaner = CreateInstance<TextReorderableListContainer>();
 
             var userName = Environment.UserName;
@@ -720,6 +725,8 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
                             {
                                 _assemblyInformationalVersion = _assemblyVersionString;
                             }
+
+                            _asmMetadataReorderableList.Draw();
                         }
                     }
 
@@ -1052,6 +1059,16 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
             }
 
             var sb = new StringBuilder();
+            if (_asmMetadataReorderableList.List.Count > 0)
+            {
+                foreach (var kv in _asmMetadataReorderableList.List)
+                {
+                    sb.AppendFormat("[assembly: AssemblyMetadata(\"{0}\", \"{1}\")]", EscapeString(kv.Key), EscapeString(kv.Value))
+                        .AppendLine();
+                }
+                tagDict.Add("ASSEMBLY_METADATA_LINES", sb.ToString());
+                sb.Clear();
+            }
 
             index = 0;
             foreach (var shaderProp in shaderPropDefList)

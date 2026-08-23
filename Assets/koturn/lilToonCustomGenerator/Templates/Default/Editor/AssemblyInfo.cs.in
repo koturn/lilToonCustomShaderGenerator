@@ -88,4 +88,8 @@ using System.Runtime.InteropServices;
 !!endif!!
 
 // Metadata
+!!ifnotempty:ASSEMBLY_METADATA_LINES!!
+%%ASSEMBLY_METADATA_LINES%%
+!!else!!
 // [assembly: AssemblyMetadata("RepositoryUrl", "https://github.com/YOURNAME/REPOSITORY")]
+!!endif!!
