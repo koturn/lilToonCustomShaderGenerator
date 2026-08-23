@@ -69,7 +69,7 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
         /// <para>If the instance is not created, create and return it.</para>
         /// </summary>
         /// <returns></returns>
-        protected ReorderableList GetReorderbleList()
+        protected ReorderableList GetReorderableList()
         {
             if (_reorderableList == null)
             {

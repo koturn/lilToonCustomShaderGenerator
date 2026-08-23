@@ -52,7 +52,7 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
         /// <summary>
         /// <see cref="ReorderableListContainer{T}"/> for <see cref="V2FMember"/>.
         /// </summary>
-        private V2FMemberReorderbleListContainer _v2fMemberReorderableListContainer;
+        private V2FMemberReorderableListContainer _v2fMemberReorderableListContainer;
         /// <summary>
         /// <see cref="ReorderableListContainer{T}"/> for <see cref="KVPair{TKey, TValue}"/>.
         /// </summary>
@@ -384,7 +384,7 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
             _templateNames = _jsonRoot.ConfigList.Select(config => config.Name).ToArray();
 
             _propertyReorderableListContainer = CreateInstance<PropertyReorderableListContainer>();
-            _v2fMemberReorderableListContainer = CreateInstance<V2FMemberReorderbleListContainer>();
+            _v2fMemberReorderableListContainer = CreateInstance<V2FMemberReorderableListContainer>();
             _asmMetadataReorderableList = CreateInstance<AsmMetadataReorderableListContainer>();
             _packageKeywordReorderableListContaner = CreateInstance<TextReorderableListContainer>();
 

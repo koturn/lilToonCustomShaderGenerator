@@ -44,11 +44,11 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
         /// </summary>
         private void OnEnable()
         {
-            var reorderbleList = GetReorderbleList();
-            reorderbleList.drawHeaderCallback = DrawHeader;
-            reorderbleList.elementHeightCallback = GetElementHeight;
-            reorderbleList.drawElementCallback = DrawElement;
-            reorderbleList.onAddCallback = OnAdd;
+            var reorderableList = GetReorderableList();
+            reorderableList.drawHeaderCallback = DrawHeader;
+            reorderableList.elementHeightCallback = GetElementHeight;
+            reorderableList.drawElementCallback = DrawElement;
+            reorderableList.onAddCallback = OnAdd;
         }
 
         /// <summary>
@@ -84,7 +84,7 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
         /// <param name="isFocused">True if the element is focused, otherwise false.</param>
         private void DrawElement(Rect rect, int index, bool isActive, bool isFocused)
         {
-            var element = GetReorderbleList().serializedProperty.GetArrayElementAtIndex(index);
+            var element = GetReorderableList().serializedProperty.GetArrayElementAtIndex(index);
 
             //
             // First line.

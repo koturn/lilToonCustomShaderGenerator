@@ -14,7 +14,7 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
     /// <see cref="ReorderableListContainer{T}"/> customized for <see cref="V2FMember"/>
     /// </summary>
     [System.Runtime.InteropServices.Guid("00d57aa2-cf72-4234-69f9-7c27ed86aa57")]
-    public sealed class V2FMemberReorderbleListContainer : ReorderableListContainer<V2FMember>
+    public sealed class V2FMemberReorderableListContainer : ReorderableListContainer<V2FMember>
     {
         /// <summary>
         /// Width margin.
@@ -60,7 +60,7 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
         /// Hidden ctor.
         /// </summary>
         [Obsolete("Should not be instanciated directly, Use ScriptableObject.CreateInstance()")]
-        private V2FMemberReorderbleListContainer()
+        private V2FMemberReorderableListContainer()
         {
             _duplicatePropertyNameCollection = _duplicatePropertyNameList.AsReadOnly();
             _invalidPropertyNameCollection = _invalidPropertyNameList.AsReadOnly();
@@ -143,11 +143,11 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
 
 
         /// <summary>
-        /// Create <see cref="V2FMemberReorderbleListContainer"/> with specified  <see cref="SerializedObject"/> and <see cref="SerializedProperty"/>.
+        /// Create <see cref="V2FMemberReorderableListContainer"/> with specified  <see cref="SerializedObject"/> and <see cref="SerializedProperty"/>.
         /// </summary>
         private void OnEnable()
         {
-            var reorderableList = GetReorderbleList();
+            var reorderableList = GetReorderableList();
             reorderableList.drawHeaderCallback = DrawHeader;
             reorderableList.elementHeightCallback = GetElementHeight;
             reorderableList.drawElementCallback = DrawElement;
@@ -185,7 +185,7 @@ namespace Koturn.LilToonCustomGenerator.Editor.Windows
         /// <param name="isFocused">True if the element is focused, otherwise false.</param>
         private void DrawElement(Rect rect, int index, bool isActive, bool isFocused)
         {
-            var element = GetReorderbleList().serializedProperty.GetArrayElementAtIndex(index);
+            var element = GetReorderableList().serializedProperty.GetArrayElementAtIndex(index);
 
             var line = EditorGUIUtility.singleLineHeight;
 
